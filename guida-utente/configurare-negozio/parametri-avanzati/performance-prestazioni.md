@@ -20,7 +20,7 @@ Ci sono diverse opzioni:
 * **Tipo di cache**. Per impostazione predefinita, Smarty utilizza un meccanismo di cache basato su file. È possibile scegliere di utilizzare MySQL come risorsa di archiviazione per la cache di output di Smarty.
 * **Pulisci la cache**. A seconda di quanto spesso il tuo negozio cambia, potresti non cancellare mai i file di cache, né cancellarli ogni volta che il tuo negozio viene modificato (a livello di prodotti o di design).
 
-**Modalità di debug**
+**Modalità di debug** <a href="performance-prestazioni-modalitadidebug" id="performance-prestazioni-modalitadidebug"></a>
 
 Quando si è in modalità di debug, è possibile scegliere di diminuire l'impatto di alcune funzioni su PrestaShop, al fine di individuare meglio dove viene generato un errore:
 
