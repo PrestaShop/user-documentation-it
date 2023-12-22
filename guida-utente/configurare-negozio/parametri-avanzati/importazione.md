@@ -40,11 +40,11 @@ Alcuni campi dispongono di un piccolo popup di informazioni (rappresentato da un
 
 ![](../../../.gitbook/assets/54267154.png)
 
-## Formato dati <a href="importazione-formatodati" id="importazione-formatodati"></a>
+## Formato dati <a href="#importazione-formatodati" id="importazione-formatodati"></a>
 
 Il file di dati importato deve essere un file di testo, utilizza un formato basato su CSV (con estensione di file .csv). Raccomandiamo di utilizzare un punto e virgola ";" come separatore di campo. Se i dati testuali (descrizione del prodotto e simili) contengono dei punti e virgola, dovresti rimuoverli oppure scegliere un altro separatore nell'opzione "Separatore di campo".
 
-Puoi creare un file CSV usando un editor di testo (come Notepad++: [http://notepad-plus-plus.org/](http://notepad-plus-plus.org)), ma ti consigliamo di utilizzare un programma di fogli di calcolo e di salvare il tuo lavoro nel formato CSV. L'utilizzo di un programma di fogli di calcolo consente di avere una comprensione più semplice e visuale dei dati rispetto al file di testo normale. Puoi usare Microsoft Excel che necessita di licenza commerciale ([https://products.office.com/it-it/business/office-365-business/](https://products.office.com/it-it/business/office-365-business/) o il calc. gratuito [http://www.openoffice.org/it/](http://www.openoffice.org/it/))
+Puoi creare un file CSV usando un editor di testo (come Notepad++: [http://notepad-plus-plus.org/](http://notepad-plus-plus.org/)), ma ti consigliamo di utilizzare un programma di fogli di calcolo e di salvare il tuo lavoro nel formato CSV. L'utilizzo di un programma di fogli di calcolo consente di avere una comprensione più semplice e visuale dei dati rispetto al file di testo normale. Puoi usare Microsoft Excel che necessita di licenza commerciale ([https://products.office.com/it-it/business/office-365-business/](https://products.office.com/it-it/business/office-365-business/) o il calc. gratuito [http://www.openoffice.org/it/](http://www.openoffice.org/it/))
 
 Ecco un esempio di un file da importare con un elenco di prodotti:
 
@@ -67,7 +67,7 @@ Devi ricordare che:
 * La codifica dei caratteri del file deve essere UTF-8. Altrimenti usa ISO-8859-1.
 * I dati usano il formato ISO 8601, senza un indicatore di zona temporale (l’indicatore di zona temporale è quello del tuo negozio): `2017-09-02 15:07:27`.
 
-## Caricare il file  <a href="importazione-caricareilfile" id="importazione-caricareilfile"></a>
+## Caricare il file  <a href="#importazione-caricareilfile" id="importazione-caricareilfile"></a>
 
 Una volta che tutti i tuoi dati sono in formato CSV, puoi caricarli nel database del tuo negozio utilizzando il modulo in questa pagina.
 
@@ -106,7 +106,7 @@ Una volta fatto corrispondere le colonne, clicca sul pulsante "Importa" (in bass
 
 Quando il processo è completo, apparirà "100% convalidato" e "100% importato". Quando si chiude questo pop-up, si viene reindirizzati alla schermata principale. Se si verifica un errore durante l'importazione, verrà visualizzato un avviso dei problemi riscontrati. In questo secondo caso è necessario esaminare il file e assicurarsi di correggere tutto.
 
-### Mappare configurazioni <a href="importazione-mappareconfigurazioni" id="importazione-mappareconfigurazioni"></a>
+### Mappare configurazioni <a href="#importazione-mappareconfigurazioni" id="importazione-mappareconfigurazioni"></a>
 
 Il processo di mappatura può essere un compito noioso se non è possibile personalizzare l'ordine delle colonne di file in base a quelle utilizzate dall'importazione di PrestaShop, soprattutto se occorre farlo più volte. È per questo che PrestaShop offre un piccolo strumento per salvare l'ordine corrente di mappatura impostato, utilizzando tutti i selettori a discesa delle intestazioni.
 

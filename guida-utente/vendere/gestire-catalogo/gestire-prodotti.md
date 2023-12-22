@@ -642,7 +642,7 @@ Ogni combinazione può essere ulteriormente gestita cliccando sull'icona di modi
   * **Quantità**. Immettere la quantità disponibile per la vendita di questa combinazione
   * **Date disponibile**. Se la combinazione non è disponibile, puoi indicare quando lo sarà nuovamente.
   * **Quantità minima per vendita**. Potresti preferire questa combinazione solo per vendite in quantità minima. Utilizza questo campo per impostare il numero di articoli minimo da vendere. Il cliente sarà in grado di acquistare questo prodotto solo quando si raggiunge la quantità minima per quella combinazione.\
-    ****
+
   * **Referenze e riferimenti specifici (ISBN, EAN-13 e UPC)**. Se necessario, indica i riferimenti della combinazione, i numeri ISBN EAN-13 e/o UPC in ogni campo, come se si sta creando un prodotto completamente nuovo. Questi numeri possono essere utilizzati dal tuo magazzino o dal tuo corriere, quindi assicurati di riempire questi campi spesso essenziali per la tua attività commerciale.
 * Prezzo e impatto\
 

@@ -77,7 +77,7 @@ Il footer dà accesso alle pagine che possono essere utili per gli utenti.
 * Il blocco "Il tuo account" contiene il link alla pagina principale del profilo dell’utente (o alla pagina di autenticazione). Il titolo "Il tuo account" è inoltre collegato all’account del cliente.  \
 
   * **Indirizzi**. Il cliente può aggiungere molteplici indirizzi per differenti opzioni di consegna.\
-    ****
+
   * **Crediti**. Si ricevono nel caso in cui vengano cancellati degli ordini. I crediti possono essere utilizzati per qualsiasi ordine futuro.
   * **Ordini**. Gli ordini precedenti e quelli in fase di elaborazione.
   * **Informazioni personali**. Nome, cognome, indirizzo e-mail, indirizzo di domicilio, numero di telefono, data di nascita: tutte le informazioni necessarie di un cliente..

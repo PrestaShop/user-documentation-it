@@ -12,7 +12,7 @@ Per motivi di sicurezza non sono consentiti alcuni tipi di query: UPDATE, DELETE
 
 Inoltre, chiavi o password protette sono nascoste (\*\*\*\*\*\*\*\*\*\*\*).
 
-## Creare una nuova query <a href="sqlmanager-gestoresql-creareunanuovaquery" id="sqlmanager-gestoresql-creareunanuovaquery"></a>
+## Creare una nuova query <a href="#sqlmanager-gestoresql-creareunanuovaquery" id="sqlmanager-gestoresql-creareunanuovaquery"></a>
 
 Come al solito, il pulsante "Aggiungi nuova query SQL" porta al form di creazione. Ha due campi principali:
 
@@ -38,7 +38,7 @@ Ogni query salvata nella tabella dispone di quattro icone a destra della sua rig
 
 ![](../../../../.gitbook/assets/54267466.png)
 
-## Impostazioni <a href="sqlmanager-gestoresql-impostazioni" id="sqlmanager-gestoresql-impostazioni"></a>
+## Impostazioni <a href="#sqlmanager-gestoresql-impostazioni" id="sqlmanager-gestoresql-impostazioni"></a>
 
 Questa volta c’è solo un’impostazione:
 
@@ -46,7 +46,7 @@ Questa volta c’è solo un’impostazione:
 
 ![](../../../../.gitbook/assets/54267467.png)
 
-## Qualche query di esempio <a href="sqlmanager-gestoresql-qualchequerydiesempio" id="sqlmanager-gestoresql-qualchequerydiesempio"></a>
+## Qualche query di esempio <a href="#sqlmanager-gestoresql-qualchequerydiesempio" id="sqlmanager-gestoresql-qualchequerydiesempio"></a>
 
 Le possibilità sono infinite, ma ecco qualche query di esempio per aiutarti a costruire la tua.
 
@@ -55,17 +55,17 @@ Le possibilità sono infinite, ma ecco qualche query di esempio per aiutarti a c
 | `SELECT email FROM ps_customer` |
 | ------------------------------- |
 
-### Elencare tutti gli indirizzi email di tutti i clienti iscritti alla tua newsletter <a href="sqlmanager-gestoresql-elencaretuttigliindirizziemaildituttiiclientiiscrittiallatuanewsletter" id="sqlmanager-gestoresql-elencaretuttigliindirizziemaildituttiiclientiiscrittiallatuanewsletter"></a>
+### Elencare tutti gli indirizzi email di tutti i clienti iscritti alla tua newsletter <a href="#sqlmanager-gestoresql-elencaretuttigliindirizziemaildituttiiclientiiscrittiallatuanewsletter" id="sqlmanager-gestoresql-elencaretuttigliindirizziemaildituttiiclientiiscrittiallatuanewsletter"></a>
 
 | `SELECT emailFROM ps_customerWHERE newsletter = 1` |
 | -------------------------------------------------- |
 
-### Elencare tutti i prodotti attivi e ottenere la descrizione in italiano (id\_lang = 1) <a href="sqlmanager-gestoresql-elencaretuttiiprodottiattivieottenereladescrizioneinitaliano-id_lang-1" id="sqlmanager-gestoresql-elencaretuttiiprodottiattivieottenereladescrizioneinitaliano-id_lang-1"></a>
+### Elencare tutti i prodotti attivi e ottenere la descrizione in italiano (id\_lang = 1) <a href="#sqlmanager-gestoresql-elencaretuttiiprodottiattivieottenereladescrizioneinitaliano-id_lang-1" id="sqlmanager-gestoresql-elencaretuttiiprodottiattivieottenereladescrizioneinitaliano-id_lang-1"></a>
 
-| `SELECT p.id_product, `[`pl.name`](http://pl.name)`, pl.link_rewrite, pl.descriptionFROM ps_product pLEFT JOIN ps_product_lang pl ON (p.id_product = pl.id_product)WHERE p.active = 1AND pl.id_lang = 1` |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SELECT p.id_product,` [`pl.name`](http://pl.name/)`, pl.link_rewrite, pl.descriptionFROM ps_product pLEFT JOIN ps_product_lang pl ON (p.id_product = pl.id_product)WHERE p.active = 1AND pl.id_lang = 1` |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-### Inserire tutti gli ordini, con dettagli relativi al corriere, valuta, pagamento, totale e data <a href="sqlmanager-gestoresql-inseriretuttigliordini-condettaglirelativialcorriere-valuta-pagamento-totaleed" id="sqlmanager-gestoresql-inseriretuttigliordini-condettaglirelativialcorriere-valuta-pagamento-totaleed"></a>
+### Inserire tutti gli ordini, con dettagli relativi al corriere, valuta, pagamento, totale e data <a href="#sqlmanager-gestoresql-inseriretuttigliordini-condettaglirelativialcorriere-valuta-pagamento-totaleed" id="sqlmanager-gestoresql-inseriretuttigliordini-condettaglirelativialcorriere-valuta-pagamento-totaleed"></a>
 
-| <p><code>SELECT o.`id_order` AS `id`,    CONCAT(LEFT(c.`firstname`, 1), '. ', c.`lastname`) AS `Customer`,    ca.`name` AS `Carrier`,    cu.`name` AS `Currency`,    o.`payment`, CONCAT(o.`total_paid_real`, ' ', cu.`sign`) AS `Total`,    o.`date_add` AS `Date`FROM `ps_orders` oLEFT JOIN `ps_customer` c ON (o.`id_customer` = c.`id_customer`)LEFT JOIN `ps_carrier` ca ON (o.id_carrier = ca.id_carrier)LEFT JOIN `ps_currency` cu ON (o.`id_currency` = cu.`id_currency`)</code><br><code></code></p> |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><code>SELECT o.`id_order` AS `id`,    CONCAT(LEFT(c.`firstname`, 1), '. ', c.`lastname`) AS `Customer`,    ca.`name` AS `Carrier`,    cu.`name` AS `Currency`,    o.`payment`, CONCAT(o.`total_paid_real`, ' ', cu.`sign`) AS `Total`,    o.`date_add` AS `Date`FROM `ps_orders` oLEFT JOIN `ps_customer` c ON (o.`id_customer` = c.`id_customer`)LEFT JOIN `ps_carrier` ca ON (o.id_carrier = ca.id_carrier)LEFT JOIN `ps_currency` cu ON (o.`id_currency` = cu.`id_currency`)</code><br></p> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

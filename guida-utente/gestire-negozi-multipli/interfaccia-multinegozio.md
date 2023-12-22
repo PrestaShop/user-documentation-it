@@ -1,17 +1,17 @@
 # L'interfaccia Multinegozio
 
-## Gestire i tuoi Negozi <a id="L&apos;interfacciaMultinegozio-GestireituoiNegozi"></a>
+## Gestire i tuoi Negozi <a href="#linterfacciamultinegozio-gestireituoinegozi" id="linterfacciamultinegozio-gestireituoinegozi"></a>
 
 La pagina "Multinegozio" comprende tre sezioni principali:
 
 * **Struttura Multinegozio**. Dà un'occhiata ai gruppi di negozio, ai relativi negozi e anche ai vari URL di un singolo negozio. Per impostazione predefinita, c'è solo un negozio nel gruppo predefinito: il negozio principale.
 * **Tabella dei gruppi di negozio**. Elenca i gruppi di negozi disponibili. Puoi modificarli cliccando sull'icona "Modifica" a destra.
 * **Opzioni Multinegozio**. Elenca le opzioni disponibili per i negozi esistenti.
-  * **Negozio di default.** Il negozio di default è quello che serve come canale centrale per tutti gli altri, condivide i suoi dettagli con altri negozi \(prodotti, corrieri, ecc.\) ed è quello che viene mostrato accedendo all'amministrazione.
+  * **Negozio di default.** Il negozio di default è quello che serve come canale centrale per tutti gli altri, condivide i suoi dettagli con altri negozi (prodotti, corrieri, ecc.) ed è quello che viene mostrato accedendo all'amministrazione.
 
 ![](../../.gitbook/assets/54267616.png)
 
-## Un back office per gestire tutto <a id="L&apos;interfacciaMultinegozio-Unbackofficepergestiretutto"></a>
+## Un back office per gestire tutto <a href="#linterfacciamultinegozio-unbackofficepergestiretutto" id="linterfacciamultinegozio-unbackofficepergestiretutto"></a>
 
 Quando la funzionalità Multinegozio è abilitata per l'installazione di PrestaShop, molti aspetti su base negozio o su base gruppo diventano personalizzabili.
 
@@ -25,9 +25,9 @@ Per aiutarti a capire a quale negozio si applicano le modifiche, PrestaShop aggi
 
 Questo selettore di negozi ti aiuta a sapere in quale negozio stai lavorando.
 
-Detto questo, una volta che la modalità Multinegozio è in atto, molte delle impostazioni regolari possono essere modificate solo su scala globale \(tutti i negozi\), \(parametri internazionali, negozio e avanzate, amministrazione\) e quindi le opzioni sono disabilitate in qualsiasi altra selezione. Tuttavia, è possibile modificare queste impostazioni su scala più locale \(per gruppi di negozio o per negozio\) se necessario.
+Detto questo, una volta che la modalità Multinegozio è in atto, molte delle impostazioni regolari possono essere modificate solo su scala globale (tutti i negozi), (parametri internazionali, negozio e avanzate, amministrazione) e quindi le opzioni sono disabilitate in qualsiasi altra selezione. Tuttavia, è possibile modificare queste impostazioni su scala più locale (per gruppi di negozio o per negozio) se necessario.
 
-Infatti, le pagine d’impostazione sono regolari quando il selettore di negozi è su "Tutti i negozi", mentre in qualsiasi altra selezione \(gruppo di negozi o negozio singolo\) dispongono di opzioni aggiuntive:
+Infatti, le pagine d’impostazione sono regolari quando il selettore di negozi è su "Tutti i negozi", mentre in qualsiasi altra selezione (gruppo di negozi o negozio singolo) dispongono di opzioni aggiuntive:
 
 * Un'opzione "Sì/No" nella parte superiore di ogni sezione della pagina impostazioni.
 * Una casella selezionabile, accanto a ciascuna opzione.
@@ -40,247 +40,44 @@ Tuttavia, alcune opzioni non possono essere modificate in un contesto locale: vi
 
 La seguente tabella indica se un elemento può essere personalizzato per un singolo negozio, per un gruppo di negozi o per tutti i negozi contemporaneamente.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Elemento</th>
-      <th style="text-align:left">Per negozio</th>
-      <th style="text-align:left">Per gruppi di negozi</th>
-      <th style="text-align:left">Tutti i negozi</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Dipendenti</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Gruppi Clienti</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Prodotti</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Prezzi</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Combinazioni di Prezzi</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Lingua</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Immagini Multiple (<b>ad eccezione dell&#x2019;immagine principale)</b>
-      </td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>&#x2014; Quantit&#xE0; disponibili per la vendita, a condizione che:</p>
-        <ul>
-          <li>L&#x2019;opzione &quot;Quantit&#xE0; condivisa disponibile per la vendita
-            &quot; &#xE8; selezionata per i il gruppo,</li>
-          <li>Il gruppo non condivide le sue quantit&#xE0; disponibili per la vendita
-            fuori dal gruppo.</li>
-        </ul>
-      </td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Tutte le altre informazioni (descrizione, tag, friendly URL,
-        ecc.)</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Attributi e valori del catalogo</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sconti: regole del carrello</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sconti: regole dei prezzi del catalogo</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Tasse: aliquote</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Categorie (<b>ad eccezione dell&#x2019;immagine principale)</b>
-      </td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Corrieri</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Magazzini</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Gestione avanzata degli stock</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Fornitori</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Marchi</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Pagine CMS</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contatti</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Nazioni
-        <br />Status dei Paesi (attivi o inattivi) comune a tutti i negozi associati</td>
-      <td
-      style="text-align:left">X</td>
-        <td style="text-align:left">X</td>
-        <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Valute</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Lingue</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Moduli</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Hooks ed eccezioni</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Attiva/Disattiva</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Configurazione (for esempio credenziali PayPal)</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Moduli di Pagamento</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Restrizioni per Nazione</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Restrizioni per Valuta</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x2014; Restrizioni per gruppo clienti</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Friendly URLs</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Scene</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Account servizi web</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Slider Immagini della Homepage</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| Elemento                                                                                                                                                                                                                                                                | Per negozio | Per gruppi di negozi | Tutti i negozi |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------------------- | -------------- |
+| Dipendenti                                                                                                                                                                                                                                                              | X           | X                    | X              |
+| Gruppi Clienti                                                                                                                                                                                                                                                          | X           | X                    | X              |
+| Prodotti                                                                                                                                                                                                                                                                | X           | X                    | X              |
+| — Prezzi                                                                                                                                                                                                                                                                | X           | X                    | X              |
+| — Combinazioni di Prezzi                                                                                                                                                                                                                                                | X           | X                    | X              |
+| — Lingua                                                                                                                                                                                                                                                                | X           | X                    | X              |
+| — Immagini Multiple (**ad eccezione dell’immagine principale)**                                                                                                                                                                                                         | X           | X                    | X              |
+| <p>— Quantità disponibili per la vendita, a condizione che:</p><ul><li>L’opzione "Quantità condivisa disponibile per la vendita " è selezionata per i il gruppo,</li><li>Il gruppo non condivide le sue quantità disponibili per la vendita fuori dal gruppo.</li></ul> | X           | X                    |                |
+| — Tutte le altre informazioni (descrizione, tag, friendly URL, ecc.)                                                                                                                                                                                                    | X           | X                    | X              |
+| Attributi e valori del catalogo                                                                                                                                                                                                                                         | X           | X                    | X              |
+| Sconti: regole del carrello                                                                                                                                                                                                                                             | X           |                      |                |
+| Sconti: regole dei prezzi del catalogo                                                                                                                                                                                                                                  | X           |                      |                |
+| Tasse: aliquote                                                                                                                                                                                                                                                         | X           | X                    | X              |
+| Categorie (**ad eccezione dell’immagine principale)**                                                                                                                                                                                                                   | X           | X                    | X              |
+| Corrieri                                                                                                                                                                                                                                                                | X           | X                    | X              |
+| Magazzini                                                                                                                                                                                                                                                               | X           | X                    | X              |
+| Gestione avanzata degli stock                                                                                                                                                                                                                                           | X           |                      |                |
+| Fornitori                                                                                                                                                                                                                                                               | X           | X                    | X              |
+| Marchi                                                                                                                                                                                                                                                                  | X           | X                    | X              |
+| Pagine CMS                                                                                                                                                                                                                                                              | X           | X                    | X              |
+| Contatti                                                                                                                                                                                                                                                                | X           | X                    | X              |
+| <p>Nazioni<br>Status dei Paesi (attivi o inattivi) comune a tutti i negozi associati</p>                                                                                                                                                                                | X           | X                    | X              |
+| Valute                                                                                                                                                                                                                                                                  | X           | X                    | X              |
+| Lingue                                                                                                                                                                                                                                                                  | X           | X                    | X              |
+| Moduli                                                                                                                                                                                                                                                                  | X           | X                    | X              |
+| — Hooks ed eccezioni                                                                                                                                                                                                                                                    | X           | X                    | X              |
+| — Attiva/Disattiva                                                                                                                                                                                                                                                      | X           | X                    | X              |
+| — Configurazione (for esempio credenziali PayPal)                                                                                                                                                                                                                       | X           |                      |                |
+| Moduli di Pagamento                                                                                                                                                                                                                                                     | X           | X                    | X              |
+| — Restrizioni per Nazione                                                                                                                                                                                                                                               | X           |                      |                |
+| — Restrizioni per Valuta                                                                                                                                                                                                                                                | X           |                      |                |
+| — Restrizioni per gruppo clienti                                                                                                                                                                                                                                        | X           |                      |                |
+| Friendly URLs                                                                                                                                                                                                                                                           | X           |                      |                |
+| Scene                                                                                                                                                                                                                                                                   | X           | X                    | X              |
+| Account servizi web                                                                                                                                                                                                                                                     | X           | X                    | X              |
+| Slider Immagini della Homepage                                                                                                                                                                                                                                          | X           |                      |                |
 
 Note
 
@@ -295,4 +92,3 @@ Per ogni negozio puoi impostare prezzi specifici di ogni prodotto, condividere u
 Puoi scegliere di condividere gli account dei clienti tra i tuoi negozi, consentendo ai tuoi clienti di utilizzare le credenziali in tutti i negozi e perfino di accedere trasparentemente in ciascuno di essi.
 
 Attraverso la gestione avanzata delle scorte, puoi gestire in modo raffinato le associazioni tra i tuoi negozi e il magazzino.
-

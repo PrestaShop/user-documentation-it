@@ -111,7 +111,7 @@ La terza e ultima tabella, "Azioni” è quella in cui si determina in cosa effe
   * **Prodotto specifico**. Puoi scegliere a quale/i prodotto/i lo sconto deve essere applicato: digita le prime lettere del prodotto e selezionalo nella lista dei nomi corrispondenti,&#x20;
   * **Prodotto meno caro.** Disponibile esclusivamente per l’opzione "Percentuale (%)". Lo sconto si applica al prodotto meno caro dell’ordine.&#x20;
   * **Prodotto(i) selezionato(i)**. Disponibile esclusivamente per l’opzione "Percentuale (%)". Lo sconto si applica al prodotto selezionato definito nel passaggio precedente.&#x20;
-* **Escludi prodotti scontati**. **** _Novità di PrestaShop 1.7_. Per impostazione predefinita, il voucher si applica a qualsiasi tipo di prodotto già scontato o meno. Attivando questa funzionalità il voucher che state creando non verrà applicato a un prodotto o una combinazione se è già scontato.
+* **Escludi prodotti scontati**. _Novità di PrestaShop 1.7_. Per impostazione predefinita, il voucher si applica a qualsiasi tipo di prodotto già scontato o meno. Attivando questa funzionalità il voucher che state creando non verrà applicato a un prodotto o una combinazione se è già scontato.
 * **Invia un omaggio gratuito**. Puoi scegliere di offrire un regalo in presenza di alcune condizioni (e saltare lo sconto complessivo). Appare un campo: digita le prime lettere del prodotto e selezionalo nell'elenco dei nomi corrispondenti.
 
 Una volta che tutto è stato salvato puoi inviare il codice del voucher ai tuoi clienti o lasciare che il sistema gestisca automaticamente le regole del carrello, a seconda delle impostazioni.

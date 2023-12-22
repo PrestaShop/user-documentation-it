@@ -8,7 +8,7 @@ Video - 4 semplici passaggi per ottimizzare le prestazioni del tuo negozio onlin
 
 [![](../../.gitbook/assets/51839795.png)](https://www.youtube.com/watch?v=0acJfI8fn-0\&list=PLyZYn1MMU7-xT-L\_zUyGnRBJmAuP6uc-c\&index=23)
 
-## Interfaccia Principale <a href="capirelestatistiche-interfacciaprincipale" id="capirelestatistiche-interfacciaprincipale"></a>
+## Interfaccia Principale <a href="#capirelestatistiche-interfacciaprincipale" id="capirelestatistiche-interfacciaprincipale"></a>
 
 Per impostazione predefinita, la pagina mostra il Pannello delle Statistiche, una panoramica sui numeri principali raccolti da PrestaShop stat system sin da quando hai lanciato il tuo negozio online.
 
@@ -38,14 +38,14 @@ Il pannello contiene 8 sezioni:
   Utilizzando il selettore a discesa "Zona" in alto a destra della sezione, è possibile limitare i numeri a una determinata area geografica e quindi vedere quale valuta è la migliore a seconda della regione.
 * **Distribuzione degli attribut**i. Questo è più di una statistica interna che consente di vedere quale attributo e gruppo di attributi è il più utilizzato all'interno dei tuoi prodotti.
 
-## Navigare le statistiche <a href="capirelestatistiche-navigarelestatistiche" id="capirelestatistiche-navigarelestatistiche"></a>
+## Navigare le statistiche <a href="#capirelestatistiche-navigarelestatistiche" id="capirelestatistiche-navigarelestatistiche"></a>
 
 La maggior parte dei dati statistici può essere scaricata come file CSV cliccando sul pulsante "Esporta CSV" nella parte inferiore della pagina.
 
 ![](../../.gitbook/assets/54267628.png)
 
 * **Account clienti.** Questa pagina mostra un grafico con il numero di account clienti creati nel tuo negozio online. Con queste informazioni puoi misurare l'impatto delle tue campagne di marketing. Puoi vedere il numero di visitatori che si sono registrati ma non hanno mai acquistato nulla, oltre al numero di clienti che hanno creato un account e hanno acquistato un elemento subito dopo la registrazione.\
-  ****
+
 * **Browser e sistemi operativi**. Questa sezione ti informa sui browser web utilizzati dai visitatori e dai clienti per navigare nel tuo negozio. Devi verificare che il tuo negozio sia perfettamente compatibile con questi browser o almeno con i tre più popolari. Ti dice anche se i visitatori stanno navigando sul tuo negozio dai loro dispositivi mobili (come gli smartphone). Se questo numero è significativo, dovresti pensare ad una versione mobile del tuo negozio.\
   Infine, puoi vedere quali sistemi operativi utilizzano i visitatori. Assicurati che il tuo negozio sia completamente compatibile con tutte le piattaforme dei tuoi visitatori.
 * **Catalogo statistiche.** Questa sezione contiene informazioni pratiche sui prodotti venduti nel tuo negozio online e sul tuo catalogo nel suo complesso. Le cifre possono essere filtrate per categoria utilizzando il selettore a discesa nella parte superiore della sezione. Puoi agire sulle performance del tuo catalogo considerando i seguenti indicatori:
@@ -62,7 +62,7 @@ La maggior parte dei dati statistici può essere scaricata come file CSV cliccan
   * **Tasso di conversione.** Indica la relazione tra il numero di visitatori e il numero di acquisti. È importante che questo valore sia il più alto possibile.
   * Una tabella nella parte inferiore della pagina indica quali prodotti di questa categoria non sono mai stati acquistati. Potresti prendere in considerazione la modifica del prezzo o scrivere una descrizione più attraente, ad esempio.
 * **Dettagli del prodotto.** Questa pagina mostra tutti i prodotti del tuo negozio per numero di riferimento, nome e disponibilità. Puoi filtrare i risultati selezionando il menu a discesa della categoria di prodotti che desideri visualizzare. Clicca su un prodotto per accedere alle sue statistiche. È quindi possibile visualizzare un grafico con due set di dati: vendite effettuate e numero di visite alla pagina del prodotto. Sarà inoltre visualizzato il tasso di conversione del prodotto.\
-  ****
+
 * **Migliori prodotti**. Questa sezione mostra i prodotti con ottimi risultati. Puoi visualizzare il fatturato realizzato, le vendite giornaliere medie, il numero di pagine visualizzate e la quantità restante in magazzino. Con questa tabella è possibile identificare i prodotti principali e decidere se eseguire azioni quali aumentare o diminuire i prezzi o fare sconti su un prodotto specifico.
 * **Informazioni sui clienti registrati.** Questa sezione è suddivisa in 5 grafici.
   * **Distribuzione di genere.** Puoi vedere come i tuoi clienti sono distribuiti tra i diversi titoli sociali che hai impostato - per impostazione predefinita, signor e signora, ma ce ne possono essere molti altri, come dottor o il dottoressa. Di conseguenza, non puoi fare affidamento a questo grafico per la distribuzione di genere a meno che tu non abbia ridotto i tuoi titoli sociali a due soli generi.
@@ -71,11 +71,11 @@ La maggior parte dei dati statistici può essere scaricata come file CSV cliccan
   * **Distribuzione di valuta.** Puoi vedere quali valute vengono utilizzate per acquistare oggetti nel tuo negozio e in quali proporzioni.
   * **Distribuzione lingua.** Puoi vedere in quali lingue il tuo negozio viene consultato più spesso e quindi decidere se migliorare le traduzioni del tuo negozio in una determinata lingua.
 * **Vendite e ordini.** Questi due grafici mostrano l'evoluzione delle vendite e degli ordini del tuo negozio. Possono essere filtrati per Paese, utilizzando il menu a discesa in alto a destra.\
-  ****
+
   * Il primo grafico indica il numero totale di ordini validi, nonché il numero totale di prodotti ordinati. Con questo grafico, è possibile analizzare quali periodi hanno dato il maggior ritorno in termini di quantità di ordini.
   * Il secondo grafico consente di visualizzare graficamente le vendite. Può analizzare i periodi di tempo in cui hai avuto le vendite migliori. Ciò consente ad esempio di avere un'idea migliore di quando iniziare le tue campagne marketing.
 * **Migliori buoni**. In questa sezione vengono visualizzati i buoni, i voucher, le regole del carrello e le regole dei prezzi di catalogo più popolari che hai creato e distribuito, personalmente o tramite una campagna promozionale. La tabella mostra anche il fatturato e il numero di buoni utilizzati.\
-  ****
+
 * **Migliori categorie**. Questa sezione presenta le prestazioni del tuo negozio per categoria. Puoi scoprire quanti prodotti di ciascuna categoria sono stati venduti, il ricavo generato e il numero di pagine visualizzate. Assicurati di controllare regolarmente la coerenza dei risultati tra le diverse categorie per rendere omogeneo il tuo negozio.
 * **Migliori clienti**. Questa sezione elenca i migliori clienti del tuo negozio. Mostra il loro indirizzo email, così come il numero di volte in cui hanno visitato il sito e quanto hanno speso finora. Tieni d'occhio questa pagina per tenere traccia dei tuoi migliori clienti. Cliccando sui pulsanti nella parte superiore delle colonne, puoi scegliere come ordinare questi dati.
 * **Migliori fornitori**. Questa sezione fornisce statistiche sui tuoi fornitori con le quantità vendute e i ricavi generati.

@@ -183,4 +183,4 @@ A seconda dei risultati mensili è necessario aggiornare gli obiettivi successiv
 
 ### La colonna di destra
 
-Questa ultima colonna è informativa: ti dà le ultime notizie da [PrestaShop.com](http://prestashop.com), le notifiche sulle nuove versioni di PrestaShop e link utili.
+Questa ultima colonna è informativa: ti dà le ultime notizie da [PrestaShop.com](http://prestashop.com/), le notifiche sulle nuove versioni di PrestaShop e link utili.

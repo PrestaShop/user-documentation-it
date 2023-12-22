@@ -31,5 +31,5 @@ Normalmente, PrestaShop viene fornito con tutti i Paesi aggiornati nel database.
 * **Attivo**. Un Paese disabilitato non verrà proposto tra le opzioni quando un visitatore desidera registrarsi e creare un nuovo account.
 * **Continente Stati**. Indica se il Paese ha uno "Stato" o no. Questa opzione aggiunge un nuovo campo al modulo di indirizzi PrestaShop. Si noti che "Stati" possono essere regioni, province, dipartimenti ... tutto ciò che ha senso per il servizio postale di quel Paese.
 * **Richiesto numero di codice fiscale?**. Il numero di identificazione fiscale è il numero di identificazione utilizzato dal servizio fiscale del Paese dall'amministrazione. Non tutti i Paesi ne hanno uno, talvolta nemmeno le persone giuridiche in alcune nazioni sono tenute a possederne uno. Su questo è possibile informarsi tramite il servizio fiscale del Paese.
-* **Mostra etichette tasse (es. "Tasse** incl**.")**. **** Scegli se lo status fiscale (incluso o escluso) deve essere visualizzato accanto ai prezzi o meno.
+* **Mostra etichette tasse (es. "Tasse** incl**.")**. Scegli se lo status fiscale (incluso o escluso) deve essere visualizzato accanto ai prezzi o meno.
 * **Associazione negozio**. Puoi rendere il Paese disponibile solo per una selezione di negozi, ad esempio quelli che puntano a un mercato locale specifico.

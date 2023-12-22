@@ -4,7 +4,7 @@ Questa pagina presenta molti strumenti e suggerimenti che potrebbero aiutarti a 
 
 ## Smarty <a href="#performance-prestazioni-smarty" id="performance-prestazioni-smarty"></a>
 
-Smarty è il nome del linguaggio del template utilizzato dai temi di PrestaShop. Puoi scoprire di più qui: [http://www.smarty.net/](http://www.smarty.net).
+Smarty è il nome del linguaggio del template utilizzato dai temi di PrestaShop. Puoi scoprire di più qui: [http://www.smarty.net/](http://www.smarty.net/).
 
 ![](../../../.gitbook/assets/54267389.png)
 
@@ -65,7 +65,7 @@ Questa sezione consente di reindirizzare una parte del traffico (file immagine e
 
 Inserire il nome di dominio del negozio in questo campo non è il modo giusto per ottenere prestazioni fantastiche. Detto questo, è facile impostare un server multimediale e i vantaggi sono reali e quasi immediati. Ecco come:
 
-1. Apri un account in un nuovo host, preferibilmente uno specializzato in contenuti distribuiti. I più popolari sono Akamai ([http://www.akamai.com/](http://www.akamai.com)), Amazon (con i suoi servizi AWS, tra cui CloudFront: [http://aws.amazon.com/](http://aws.amazon.com)) o CloudFlare (http: // [www.cloudflare.com/](http://www.cloudflare.com)). Dovresti anche chiedere al tuo host, forse ha un servizio CDN a cui puoi iscriverti.
+1. Apri un account in un nuovo host, preferibilmente uno specializzato in contenuti distribuiti. I più popolari sono Akamai ([http://www.akamai.com/](http://www.akamai.com/)), Amazon (con i suoi servizi AWS, tra cui CloudFront: [http://aws.amazon.com/](http://aws.amazon.com/)) o CloudFlare (http: // [www.cloudflare.com/](http://www.cloudflare.com/)). Dovresti anche chiedere al tuo host, forse ha un servizio CDN a cui puoi iscriverti.
 2. Copia i file multimediali sul server dell'host. Ciò significa che il server CDN deve contenere una copia esatta delle seguenti cartelle dal server principale del negozio: `img`, `/themes` e `/modules`.\
    Ricorda: devi fare in modo che queste cartelle siano sempre sincronizzate: anche se si aggiungono nuovi prodotti o si modifica il tema, il server CDN deve contenere l'ultima versione di tutti questi file.
 3. Una volta che il server CDN è nel posto giusto, aggiungi l'indirizzo Web (come indicato dal tuo host CDN) nel campo, "Media server # 1". Se tale host consente di aggiungere più indirizzi web, aggiungili.
@@ -102,4 +102,4 @@ Questa sezione consente di scegliere di abilitare la cache e quindi scegliere il
 
 * **Memcached**. Un sistema di cache distribuito. Molto efficace, soprattutto con più server, ma è necessario assicurarsi che i server/host lo supportino - probabilmente, se la configurazione PHP è dotata dell'estensione MemCached PECL, è positivo (puoi scaricarlo qui: http: //[pecl.php.net/package/memcache](http://pecl.php.net/package/memcache)). È possibile aggiungere il server Memcached cliccando sul collegamento "Aggiungi server".
 * **APC**. PHP alternativo la Cache è libera, aperta e robusta, ma funziona con un solo server, è il caso più frequente quando si avvia la propria attività online. Di nuovo, controlla la disponibilità dell'estensione APC PECL sul server: [http://pecl.php.net/package/APC](http://pecl.php.net/package/APC).
-* **XCache**. Xcache è un nuovo sistema di cache, specifico per il server Lighttpd - pertanto, non funziona con il comune server Apache. Leggi di più su [http://xcache.lighttpd.net/](http://xcache.lighttpd.net).
+* **XCache**. Xcache è un nuovo sistema di cache, specifico per il server Lighttpd - pertanto, non funziona con il comune server Apache. Leggi di più su [http://xcache.lighttpd.net/](http://xcache.lighttpd.net/).

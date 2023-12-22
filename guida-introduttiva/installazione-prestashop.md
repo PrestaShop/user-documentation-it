@@ -50,13 +50,13 @@ Il file scaricato è un archivio ZIP. Per continuare con il processo, **devi dec
 Se il tuo sistema operativo non supporta in origine i file ZIP, puoi scaricare e installare un apposito strumento, ad esempio:
 
 * Windows:
-  * 7-zip: [http://www.7-zip.org/](http://www.7-zip.org)
+  * 7-zip: [http://www.7-zip.org/](http://www.7-zip.org/)
   * WinZip: [http://www.winzip.com/win/en/index.htm](http://www.winzip.com/win/it/index.htm)
-  * WinRAR: [http://www.rarlab.com/](http://www.rarlab.com)
+  * WinRAR: [http://www.rarlab.com/](http://www.rarlab.com/)
 * Mac OS X:
-  * iZip: [http://www.izip.com/](http://www.izip.com)
+  * iZip: [http://www.izip.com/](http://www.izip.com/)
   * WinZip Mac: [http://www.winzip.com/mac/](http://www.winzip.com/mac/)
-  * Zipeg: [http://www.zipeg.com/](http://www.zipeg.com)
+  * Zipeg: [http://www.zipeg.com/](http://www.zipeg.com/)
 
 Utilizzando uno strumento per file ZIP; estrai il contenuto dell'archivio in un percorso noto dell'unità disco rigido (ad esempio sul desktop). **Non caricare il file ZIP direttamente nel server web**.
 
@@ -72,7 +72,7 @@ Il file "Install\_PrestaShop.html" non deve essere caricato sul server web.
 
 Ora dovresti disporre di uno spazio di hosting (in caso contrario, consulta il capitolo "Di che cosa hai bisogno per iniziare" della presente guida) e una cartella sull'unità disco rigido con l'archivio di PrestaShop decompresso.
 
-Questo passaggio ti permette di caricare i file di PrestaShop sullo spazio di hosting. A tale scopo, collega il computer al server con uno strumento noto come "client FTP", che molto probabilmente hai già installato durante la lettura del capitolo "Di che cosa hai bisogno per iniziare". In questo caso, utilizzeremo il programma FileZilla gratuito ([http://filezilla-project.org/](http://filezilla-project.org)).
+Questo passaggio ti permette di caricare i file di PrestaShop sullo spazio di hosting. A tale scopo, collega il computer al server con uno strumento noto come "client FTP", che molto probabilmente hai già installato durante la lettura del capitolo "Di che cosa hai bisogno per iniziare". In questo caso, utilizzeremo il programma FileZilla gratuito ([http://filezilla-project.org/](http://filezilla-project.org/)).
 
 Collegati allo spazio di hosting tramite il client FTP, utilizzando i dettagli di connessione forniti dal tuo host web (in caso contrario, contatta il tuo host). Una volta eseguita la connessione, devi trasferire i file di PrestaShop dal computer al server.
 
@@ -84,9 +84,9 @@ Nella sezione "Sito remoto" (a destra), individua la posizione in cui desideri c
   * Alcuni host potrebbero richiedere di collocare i file in una cartella specifica, ad esempio `/htdocs`, `/public_html`, `/web`, `/www`, `/`[nomedominio.com](http://nomedominio.com), etc.
   * Altri server FTP di host ti permettono di accedere direttamente allo spazio di caricamento appropriato.
 * Le tue esigenze:
-  * Se desideri che il tuo negozio sia il sito web principale per il tuo nome di dominio (ad es. [http://www.esempio.com](http://www.esempio.com)), carica PrestaShop nella cartella principale dello spazio di caricamento (che potrebbe variare in base all'host).
+  * Se desideri che il tuo negozio sia il sito web principale per il tuo nome di dominio (ad es. [http://www.esempio.com](http://www.esempio.com/)), carica PrestaShop nella cartella principale dello spazio di caricamento (che potrebbe variare in base all'host).
   * Se desideri che il tuo negozio si trovi in una sottocartella del tuo nome di dominio ([http://www.esempio.com/negozio](http://www.esempio.com/negozio/)), devi prima creare una cartella tramite FileZilla (fai clic con il pulsante destro del mouse e scegli "Crea cartella"), quindi carica PrestaShop in tale cartella.
-  * Se desideri che il tuo negozio si trovi in un sottodominio del tuo nome di dominio ([http://negozio.esempio.com](http://negozio.esempio.com)), devi prima creare un sottodominio. Questa operazione varia in base all'host: ad esempio, semplicemente aggiungendo una nuova cartella con il client FTP o creando il sottodominio tramite il pannello di amministrazione dell'host. Consulta prima la documentazione di supporto del tuo host. Una volta creata, individua la cartella del sottodominio e carica PrestaShop in questa posizione.
+  * Se desideri che il tuo negozio si trovi in un sottodominio del tuo nome di dominio ([http://negozio.esempio.com](http://negozio.esempio.com/)), devi prima creare un sottodominio. Questa operazione varia in base all'host: ad esempio, semplicemente aggiungendo una nuova cartella con il client FTP o creando il sottodominio tramite il pannello di amministrazione dell'host. Consulta prima la documentazione di supporto del tuo host. Una volta creata, individua la cartella del sottodominio e carica PrestaShop in questa posizione.
 
 Nel lato sinistro di FileZilla, dovrebbe essere presente la cartella locale in cui hai estratto i file di PrestaShop dall'archivio ZIP e nel lato destro la posizione di destinazione. Se non lo hai ancora fatto, il caricamento è un'operazione semplice: seleziona i tre file dalla cartella locale (utilizza Ctrl-A) e trascinali e rilasciali nella cartella remota oppure fai clic con il pulsante destro del mouse sulla selezione e scegli "Carica" nel menu contestuale.
 
@@ -94,7 +94,7 @@ Nel lato sinistro di FileZilla, dovrebbe essere presente la cartella locale in c
 
 Prima di poter installare effettivamente PrestaShop, devi verificare che MySQL Server disponga di un database predisposto per i dati di PrestaShop. In caso contrario, devi crearne uno.
 
-Per creare un database, puoi utilizzare qualsiasi strumento di amministrazione di database. Utilizzeremo lo strumento phpMyAdmin gratuito ([http://www.phpmyadmin.net/](http://www.phpmyadmin.net)), che dovrebbe essere fornito preinstallato dalla maggior parte degli hosting web.
+Per creare un database, puoi utilizzare qualsiasi strumento di amministrazione di database. Utilizzeremo lo strumento phpMyAdmin gratuito ([http://www.phpmyadmin.net/](http://www.phpmyadmin.net/)), che dovrebbe essere fornito preinstallato dalla maggior parte degli hosting web.
 
 Alcuni host spingono i clienti a utilizzare un pannello di controllo grafico, ad esempio cPanel, Plesk o uno personalizzato. Accertati di consultare la documentazione dell'host sulla gestione dei database MySQL e di creare un database per il tuo negozio seguendo le direttive specifiche di tale host.
 
@@ -122,7 +122,7 @@ Si tratta di 6 passaggi. Nella parte superiore della pagina, l'assistente di ins
 
 Questa pagina è una rapida introduzione del processo di installazione. Puoi scegliere la lingua in cui visualizzare le istruzioni del programma di installazione.
 
-Ti viene fornito anche un link al sito della documentazione ([http://doc.prestashop.com/](http://doc.prestashop.com)) e un link alla nostra offerta di supporto. Per ulteriori informazioni sui nostri servizi di supporto, visita [https://addons.prestashop.com/it/35-guida](https://addons.prestashop.com/it/35-guida).
+Ti viene fornito anche un link al sito della documentazione ([http://doc.prestashop.com/](http://doc.prestashop.com/)) e un link alla nostra offerta di supporto. Per ulteriori informazioni sui nostri servizi di supporto, visita [https://addons.prestashop.com/it/35-guida](https://addons.prestashop.com/it/35-guida).
 
 Seleziona la lingua in cui desideri visualizzare il programma di installazione, quindi fai clic sul pulsante "Avanti". Ciò imposterà anche la lingua predefinita dell'installazione di PrestaShop, tuttavia sono disponibili anche altre lingue.
 
@@ -227,7 +227,7 @@ In questa pagina è disponibile un modulo che ti consente di specificare dove si
 
 Compila tutti i campi con le informazioni di connessione del database fornite dall'host web:
 
-* **Database server address** (Indirizzo server database): il nome host di MySQL Server. Può essere collegato al tuo nome di dominio (ad es. [http://sql.esempio.com](http://sql.esempio.com)), collegato al tuo host web (ad es. [http://mysql2.alwaysdata.com](http://mysql2.alwaysdata.com)) o essere semplicemente un indirizzo IP (ad es. 46.105.78.185).
+* **Database server address** (Indirizzo server database): il nome host di MySQL Server. Può essere collegato al tuo nome di dominio (ad es. [http://sql.esempio.com](http://sql.esempio.com/)), collegato al tuo host web (ad es. [http://mysql2.alwaysdata.com](http://mysql2.alwaysdata.com/)) o essere semplicemente un indirizzo IP (ad es. 46.105.78.185).
 * **Database name** (Nome database): il nome del database in cui desideri archiviare i dati di PrestaShop. Si può trattare del database esistente su MySQL Server o di quello creato utilizzando phpMyAdmin (o qualsiasi altro strumento SQL) nella sezione "Creazione di un database per il negozio" della presente guida.
 * **Database login** (Accesso database): il nome dell'utente MySQL che ha accesso al tuo database.
 * **Database password** (Password database): la password dell'utente MySQL.

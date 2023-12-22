@@ -17,7 +17,7 @@ D’altronde, puoi avere tanti negozi su un nome di dominio quanti desideri:
     Ad esempio: [http://www.esempio.com/uomo/](http://www.esempio.com/uomo/) e [http://esempio.com/uomo/\
     ](http://esempio.com/uomo/)\
     Altrimenti, i clienti che cercano di accedere al tuo negozio secondario senza il "www." nell'URL verranno reindirizzati al tuo negozio principale.
-* Utilizzando sottodomini: [http://uomo.esempio.com/](http://uomo.esempio.com), [http://donna.esempio.com/](http://donna.esempio.com), [http://bimbi.esempio.com/](http://bimbi.esempio.com), [http://animalidomestici.esempio.com/](http://animalidomestici.esempio.com), ecc.
+* Utilizzando sottodomini: [http://uomo.esempio.com/](http://uomo.esempio.com/), [http://donna.esempio.com/](http://donna.esempio.com/), [http://bimbi.esempio.com/](http://bimbi.esempio.com/), [http://animalidomestici.esempio.com/](http://animalidomestici.esempio.com/), ecc.
 
 Non creare alcun sottodominio o sottocartella da solo sul tuo server o sul tuo computer: PrestaShop cura la creazione del percorso per il tuo server. Quando il cliente richiede questo percorso, PrestaShop riconosce il negozio e serve automaticamente i file e i dati per il negozio corretto.
 
@@ -37,8 +37,8 @@ Per aggiungere un URL a un negozio, seleziona il negozio nel selettore "Albero M
   * **URL Principale**. Attivandolo indichi se desideri che tutti gli altri URL di questo negozio siano reindirizzati a questo URL principale (cambierà qualsiasi altro URL da principale a URL normale).
   * **Stato**. Puoi attivare e disattivare un URL in ogni momento.
 * **URL Negozio**.
-  * **Dominio**. Il nome di dominio del negozio stesso. Non deve limitarlo al nome di dominio: è possibile indicare un sotto-dominio se necessario. Assicurati di non aggiungere '`http://`', o '`/`'. Esempio: [`www.esempio.com`](http://www.example.com) o [`bimbi.esempio.com`](http://kids.example.com).
-  * **Dominio SSL**. Se il dominio SSL è diverso dal dominio principale, assicurati di indicarlo in questo campo. Esempio: [`www.esempio.com`](http://www.example.com) o [`bimbi.esempio.com`](http://kids.example.com).
+  * **Dominio**. Il nome di dominio del negozio stesso. Non deve limitarlo al nome di dominio: è possibile indicare un sotto-dominio se necessario. Assicurati di non aggiungere '`http://`', o '`/`'. Esempio: [`www.esempio.com`](http://www.example.com/) o [`bimbi.esempio.com`](http://kids.example.com/).
+  * **Dominio SSL**. Se il dominio SSL è diverso dal dominio principale, assicurati di indicarlo in questo campo. Esempio: [`www.esempio.com`](http://www.example.com/) o [`bimbi.esempio.com`](http://kids.example.com/).
   * **URI Fisico**. Qui è necessario impostare il percorso fisico dell'installazione effettiva sul server. Se il negozio è alla radice del dominio o del sottodominio, lascia vuoto questo campo. Esempio: `/` o `/bimbi/`.
   * **URI Virtuale**. Puoi rendere il negozio disponibile in modo trasparente ai clienti attraverso questa opzione: grazie alla potenza della riscrittura URL, puoi visualizzare il tuo negozio senza dover creare una sottocartella. Naturalmente deve essere abilitata in PrestaShop la riscrittura dagli URL (che significa Friendly URL, vedi la pagina "SEO & URL" in "traffico” e "Parametri del negozio"). Esempio: `/scarpe/`. Si noti che funziona solo per i negozi con sottocartelle, non per i negozi con sottodomini.
   * **Il tuo URL finale sarà**. Fornisce l'impatto che le impostazioni dell’URL avranno sul sito web completo nel tuo negozio.
