@@ -8,7 +8,7 @@
   * [Installazione di PrestaShop con lo script della riga di comando](guida-introduttiva/installazione-prestashop-con-lo-script-della-riga-di-comando.md)
   * [Disinstallazione di PrestaShop](guida-introduttiva/disinstallazione-prestashop.md)
   * [Informazioni di varia natura](guida-introduttiva/informazioni-di-varia-natura.md)
-* [Guida per l'Utente](guida-utente/README.md)
+* [Guida per l'Utente PrestaShop 1.7](guida-utente/README.md)
   * [Formazione](guida-utente/formazione.md)
   * [Personalizzare il tuo negozio](guida-utente/personalizzare-negozio.md)
   * [Connettersi al back office di PrestaShop](guida-utente/connettersi-al-back-office.md)
