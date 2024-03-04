@@ -4,9 +4,9 @@ PrestaShop è un programma di facile installazione. Una volta caricati tutti i f
 
 Prima di iniziare, verifica di soddisfare tutti i requisiti necessari: spazio del server sul provider di hosting, nome di dominio, client FTP ed editor di testo. Accertati di aver seguito attentamente le istruzioni contenute nella pagina "[Di che cosa hai bisogno per iniziare](di-che-cosa-hai-bisogno-per-iniziare.md)".
 
-1&1 IONOS, il nostro partner di hosting web, offre un processo di installazione con un solo clic che ti permette di risparmiare tempo e di iniziare quanto prima. In questo caso, gli utenti inesperti potranno ridurre notevolmente i tempi di installazione.&#x20;
+IONOS, il nostro partner di hosting web, offre un processo di installazione con un solo clic che ti permette di risparmiare tempo e di iniziare quanto prima. In questo caso, gli utenti inesperti potranno ridurre notevolmente i tempi di installazione.&#x20;
 
-* [Hosting 1&1 IONOS](https://www.ionos.it/soluzioni-ecommerce/prestashop-hosting?ac=OM.IA.IAs96K414096T7073a)&#x20;
+* [Hosting IONOS](https://www.ionos.it/soluzioni-ecommerce/prestashop-hosting?ac=OM.IA.IAs96K414096T7073a)&#x20;
 
 I seguenti host web utilizzano le seguenti librerie di script:
 

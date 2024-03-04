@@ -6,18 +6,18 @@ Di seguito, abbiamo messo a punto un elenco delle operazioni necessarie per avvi
 
 * Requisiti di sistema:
   * PHP 5.4 o versione successiva.
-    * Impostazioni utili \(nel file `php.ini`\): 
-      * `allow_url_fopen` impostato su On, 
+    * Impostazioni utili (nel file `php.ini`):&#x20;
+      * `allow_url_fopen` impostato su On,&#x20;
       * `register_globals` impostato su Off`,`
-      * `upload_max_filesize`impostato su "16M" \(o più\).
-    * Devono avere estensioni PHP \(nel file `php.ini`\): PDO\_MySQL, cURL, SimpleXML, mcrypt, GD, OpenSSL, DOM, SOAP, Zip, fileinfo.
+      * `upload_max_filesize`impostato su "16M" (o più).
+    * Devono avere estensioni PHP (nel file `php.ini`): PDO\_MySQL, cURL, SimpleXML, mcrypt, GD, OpenSSL, DOM, SOAP, Zip, fileinfo.
     * Strumenti server utili: cron/crontab, Memcached.
   * MySQL 5.0 o versione successiva.
-  * Consigliato: 
+  * Consigliato:&#x20;
     * Hosting Unix/Linux.
     * Apache Web Server 2.0 o versione successiva oppure nginx Web Server.
-      * Impostazioni del modulo Apache: 
-        * `mod_rewrite` abilitato, 
+      * Impostazioni del modulo Apache:&#x20;
+        * `mod_rewrite` abilitato,&#x20;
         * `mod_security` disabilitato,
         * `mod_auth_basic` disabilitato.
     * Almeno 128 Mb di RAM dedicata a PHP. Maggiore è la memoria, migliori saranno i risultati.
@@ -25,13 +25,13 @@ Di seguito, abbiamo messo a punto un elenco delle operazioni necessarie per avvi
   * Se non stai eseguendo un'installazione locale, devono essere forniti dal tuo host web.
 * Qualsiasi editor di testo.
 * Qualsiasi client FTP.
-* Qualsiasi browser web moderno \(se utilizzi Internet Explorer: almeno IE9\).
+* Qualsiasi browser web moderno (se utilizzi Internet Explorer: almeno IE9).
 
 Devi inoltre conoscere l'URL nel tuo dominio da cui desideri accedere al tuo o ai tuoi negozi.
 
 Per ulteriori informazioni, consulta la pagina ufficiale dei requisiti di sistema: [https://www.prestashop.com/it/system-requirements](https://www.prestashop.com/it/system-requirements.).
 
-Una volta completata la configurazione, puoi utilizzare la guida di installazione: [http://doc.prestashop.com/display/PS17/Installing+PrestaShop](file://localhost/display/PS17/Installing+PrestaShop).
+Una volta completata la configurazione, puoi utilizzare la guida di installazione: [http://doc.prestashop.com/display/PS17/Installing+PrestaShop](file:///display/PS17/Installing+PrestaShop).
 
 ## Istruzioni per la configurazione dettagliata
 
@@ -41,13 +41,13 @@ PrestaShop è un'applicazione web: per funzionare, deve essere installata su un 
 
 Prima di procedere con qualsiasi download o installazione, devi specificare una home page per il tuo negozio on-line PrestaShop, composta da due elementi: un nome di dominio e un server web. Un dominio è l'identificatore on-line del tuo sito web, ad esempio [esempio.com](http://esempio.com) o [ilmionegozioonline.net](http://ilmionegozioonline.net). È la facciata pubblica del tuo server web e quindi del tuo negozio.
 
-Devi acquistare un nome di dominio per il tuo negozio. Dovresti ottenerne uno quando implementi il tuo hosting web: molti host web, infatti, offrono un dominio gratuito con ogni nuovo account. Dovrebbero essere gratuiti per un anno o per la durata di abbonamento a tale host web. In genere, si ottiene il pacchetto completo \(hosting+nome di dominio\) in un'unica soluzione.
+Devi acquistare un nome di dominio per il tuo negozio. Dovresti ottenerne uno quando implementi il tuo hosting web: molti host web, infatti, offrono un dominio gratuito con ogni nuovo account. Dovrebbero essere gratuiti per un anno o per la durata di abbonamento a tale host web. In genere, si ottiene il pacchetto completo (hosting+nome di dominio) in un'unica soluzione.
 
 I nomi di dominio forniti da un host potrebbero presentare un problema: se il servizio dell'host non soddisfa le tue esigenze, potresti voler passare a un host migliore; di conseguenza, dovrai spostare file, dati e nome di dominio sull'altro host.
 
 File e dati possono essere spostati facilmente, ma in base all'host, potresti riscontrare difficoltà a riottenere il tuo nome di dominio. Poiché l'host ha acquistato il nome di dominio per tuo conto, tecnicamente il dominio è di proprietà di tale host, il quale potrebbe persino impedirti di trasferirlo su un altro host o chiederti di sostenere un costo. E poiché il nome di dominio è il tuo brand e il tuo indirizzo sul web, devi sottostare alle regole dell'host web.
 
-Ecco perché spesso si consiglia di ottenere il proprio nome di dominio da un registrar indipendente \(per ulteriori informazioni, consulta: [https://it.wikipedia.org/wiki/Registrar](https://it.wikipedia.org/wiki/Registrar.)\). Tecnicamente, non puoi in alcun caso acquistare un nome di dominio: in realtà si tratta solo di un noleggio, spesso sostenendo un costo annuale, che ti dà il diritto di utilizzarlo, tuttavia non appena smetti di pagare l'abbonamento, non ti appartiene più e chiunque può appropriarsene.
+Ecco perché spesso si consiglia di ottenere il proprio nome di dominio da un registrar indipendente (per ulteriori informazioni, consulta: [https://it.wikipedia.org/wiki/Registrar](https://it.wikipedia.org/wiki/Registrar.)). Tecnicamente, non puoi in alcun caso acquistare un nome di dominio: in realtà si tratta solo di un noleggio, spesso sostenendo un costo annuale, che ti dà il diritto di utilizzarlo, tuttavia non appena smetti di pagare l'abbonamento, non ti appartiene più e chiunque può appropriarsene.
 
 Oltre a sostenere un costo per la registrazione del nome di dominio, devi pagare anche il servizio di hosting web. Ma almeno ti resta la libertà di passare a un host migliore in qualsiasi momento, senza sostenere costi supplementari: devi solo modificare gli indirizzi DNS del nome di dominio. Entro 24 ore, la modifica si diffonderà in tutto il mondo.
 
@@ -56,17 +56,17 @@ Se invece desideri ottenere il nome di dominio da un registrar indipendente, di 
 * Gandi: [http://en.gandi.net/](http://en.gandi.net/)
 * Namecheap: [http://www.namecheap.com/](http://www.namecheap.com/)
 * GoDaddy: [https://it.godaddy.com/?countryview=1](https://it.godaddy.com/?countryview=1)
-* 1&1 IONOS: [https://www.ionos.it](https://www.ionos.it/)
+* IONOS: [https://www.ionos.it](https://www.ionos.it/)
 
 Ce ne sono molti altri. Chiedi un parere ai tuoi amici!
 
 ### Ricerca di un host
 
-Una volta ottenuto un nome di dominio, devi collegarlo a PrestaShop. In altre parole, i file di PrestaShop devono risiedere su un server web. È possibile che tu già disponga di un server web personale, ma è più probabile che il negozio sia ospitato da un servizio di hosting Internet \(per ulteriori informazioni, consulta: [http://en.wikipedia.org/wiki/Internet\_hosting\_service](http://en.wikipedia.org/wiki/Internet_hosting_service)\), che ti offre una home page on-line sostenendo un costo mensile o annuale.
+Una volta ottenuto un nome di dominio, devi collegarlo a PrestaShop. In altre parole, i file di PrestaShop devono risiedere su un server web. È possibile che tu già disponga di un server web personale, ma è più probabile che il negozio sia ospitato da un servizio di hosting Internet (per ulteriori informazioni, consulta: [http://en.wikipedia.org/wiki/Internet\_hosting\_service](http://en.wikipedia.org/wiki/Internet\_hosting\_service)), che ti offre una home page on-line sostenendo un costo mensile o annuale.
 
-Prima di avviare un negozio on-line, devi selezionare un provider di hosting. In pratica, quasi tutti gli host web sono compatibili con la soluzione PrestaShop. Tuttavia, solo alcuni provider di hosting offrono server ottimizzati per PrestaShop \(installazione e versione aggiornata con un clic\). Di seguito è disponibile il nostro [elenco di partner di hosting](https://www.prestashop.com/it/ecommerce-hosting).
+Prima di avviare un negozio on-line, devi selezionare un provider di hosting. In pratica, quasi tutti gli host web sono compatibili con la soluzione PrestaShop. Tuttavia, solo alcuni provider di hosting offrono server ottimizzati per PrestaShop (installazione e versione aggiornata con un clic). Di seguito è disponibile il nostro [elenco di partner di hosting](https://www.prestashop.com/it/ecommerce-hosting).
 
-Quando scegli l'host, ricordati di soddisfare un requisito fondamentale: deve offrire supporto per PHP 5.4 \(o versione più recente\), il linguaggio di programmazione con cui è stato compilato PrestaShop e MySQL 5 \(o versione più recente\), il sistema di database in cui vengono archiviati tutti i dati di PrestaShop. Sono presenti altri requisiti: per ulteriori informazioni, consulta la sezione "Requisiti tecnici" sotto.
+Quando scegli l'host, ricordati di soddisfare un requisito fondamentale: deve offrire supporto per PHP 5.4 (o versione più recente), il linguaggio di programmazione con cui è stato compilato PrestaShop e MySQL 5 (o versione più recente), il sistema di database in cui vengono archiviati tutti i dati di PrestaShop. Sono presenti altri requisiti: per ulteriori informazioni, consulta la sezione "Requisiti tecnici" sotto.
 
 ### Requisiti tecnici
 
@@ -80,13 +80,13 @@ Qualunque sia il servizio di hosting scelto, i seguenti componenti devono essere
 
 * **Sistema**: Unix, Linux o Windows. Ti consigliamo vivamente di utilizzare Unix.
 * **Server web**: Apache Web Server 2.0 o versione successiva.
-* **PHP 5.4 o versione successiva**. È possibile che ti venga richiesto di attivare PHP 5 \(contatta il tuo provider di hosting\).
+* **PHP 5.4 o versione successiva**. È possibile che ti venga richiesto di attivare PHP 5 (contatta il tuo provider di hosting).
 * **MySQL 5.0 o versione successiva**.
 * Almeno 128 Mb di RAM sul server.
 
 PrestaShop è inoltre compatibile con Microsoft IIS Web Server 6.0 o versione successiva e nginx 1.0 o versione successiva.
 
-Ulteriori informazioni per gli amministratori di sistema sono disponibili nella [Guida per gli amministratori di sistema](file://localhost/display/PS15/System+Administrator+Guide). Ti consigliamo vivamente di consultarla!
+Ulteriori informazioni per gli amministratori di sistema sono disponibili nella [Guida per gli amministratori di sistema](file:///display/PS15/System+Administrator+Guide). Ti consigliamo vivamente di consultarla!
 
 ### Strumenti
 
@@ -107,7 +107,7 @@ Non utilizzare un elaboratore di testo per la modifica dei file di testo, ad ese
 
 Client FTP
 
-FTP è l'acronimo di "File Transfer Protocol" \(protocollo di trasferimento dei file\), ovvero il metodo standard per trasferire file da un computer a un host web.
+FTP è l'acronimo di "File Transfer Protocol" (protocollo di trasferimento dei file), ovvero il metodo standard per trasferire file da un computer a un host web.
 
 Nella presente guida, utilizzeremo FileZilla, un ottimo client FTP gratuito per Windows, Mac OS X e Linux. Scaricalo dal sito [http://filezilla-project.org/](http://filezilla-project.org/) e avvia il programma di installazione. Nota: non scaricare FileZilla Server, solo FileZilla Client!
 
@@ -157,12 +157,12 @@ A questo punto, devi decidere dove ospitare PrestaShop. Sono disponibili quattro
 * In un sottodominio: [http://negozio.esempio.com/](http://negozio.esempio.com/)
 * In una cartella di un sottodominio: [http://moda.esempio.com/boutique/](http://moda.esempio.com/boutique/)
 
-Nota: grazie alla funzionalità multinegozio, puoi configurare tutti i negozi che desideri con un'unica installazione di PrestaShop 1.7, ognuno con il proprio nome di dominio specifico, se necessario. Tienilo presente quando decidi le posizioni in cui ospitare i vari negozi.  
- Qualsiasi sia il tuo piano, il negozio predefinito risiederà sempre nella posizione in cui si trova PrestaShop stesso.
+Nota: grazie alla funzionalità multinegozio, puoi configurare tutti i negozi che desideri con un'unica installazione di PrestaShop 1.7, ognuno con il proprio nome di dominio specifico, se necessario. Tienilo presente quando decidi le posizioni in cui ospitare i vari negozi.\
+&#x20;Qualsiasi sia il tuo piano, il negozio predefinito risiederà sempre nella posizione in cui si trova PrestaShop stesso.
 
 ### Installazione di PrestaShop
 
-Infine, ora che tutti i requisiti sono stati soddisfatti, puoi utilizzare la guida di installazione: [http://doc.prestashop.com/display/PS17/Installing+PrestaShop](file://localhost/display/PS17/Installing+PrestaShop).
+Infine, ora che tutti i requisiti sono stati soddisfatti, puoi utilizzare la guida di installazione: [http://doc.prestashop.com/display/PS17/Installing+PrestaShop](file:///display/PS17/Installing+PrestaShop).
 
 **Sommario**
 
@@ -175,8 +175,7 @@ Infine, ora che tutti i requisiti sono stati soddisfatti, puoi utilizzare la gui
     * Avvio del programma di installazione automatico
     * Completamento dell'installazione
 
-Il presente capitolo è indirizzato agli utenti che intendono installare PrestaShop sul proprio server web on-line.  
- Se desideri installare PrestaShop sul tuo computer, devi prima consultare le istruzioni contenute nella pagina: [Installazione di PrestaShop sul tuo computer](installazione-prestashop-computer.md).
+Il presente capitolo è indirizzato agli utenti che intendono installare PrestaShop sul proprio server web on-line.\
+&#x20;Se desideri installare PrestaShop sul tuo computer, devi prima consultare le istruzioni contenute nella pagina: [Installazione di PrestaShop sul tuo computer](installazione-prestashop-computer.md).
 
 Se hai già letto queste istruzioni, passa alla sezione "Creazione di un database per il tuo negozio" nella pagina corrente.
-
